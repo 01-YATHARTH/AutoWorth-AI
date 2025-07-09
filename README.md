@@ -70,7 +70,7 @@ AutoWorth AI is an intelligent, web-based car price prediction app built using *
 # 📁 Folder Structure
 
 ```
-CAR PRICE/
+AutoWorth AI/
 ├── static/                # CSS + JS files
 │   ├── style.css
 │   └── script.js
@@ -81,8 +81,9 @@ CAR PRICE/
 ├── Model/
 │   └── car_model.pkl      # Trained ML Model
 │
-├── screenshots/           # README screenshots
-│   └── *.png
+├── assets/                # README SCREENSHHOTS
+│    └── screenshots.png 
+│  
 │
 ├── Cardetails.csv         # Dataset
 ├── app.py                 # Flask backend
