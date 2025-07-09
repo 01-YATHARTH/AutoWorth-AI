@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AutoWorth AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome (optional; keep if you add FA icons later) -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" integrity="sha384-LZN37fP6B1dYv8+bUYw7PLrSmnEqp1vMWzWvNvJ1EWwoxvBjBcVvWWbnfpe97eR8" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <!--Navigation -->
+  <nav class="navbar">
+    <div class="nav-brand">AutoWorth AI</div>
+    <button id="navToggle" class="hamburger" aria-label="Toggle menu">&#9776;</button>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#predict">Predict</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero  -->
+  <header id="home" class="hero">
+    <div class="hero-inner">
+      <h1 class="gradient-text">
+        Uncover Your Car’s <br class="mobile-break">True Value
+      </h1>
+      <p class="hero-tagline">Because every car has a story — let the right price tell it.</p>
+      <a href="#predict" class="cta-btn">Start Predicting</a>
+    </div>
+  </header>
+
+  <!-- Predictor -->
+  <main id="predict" class="main-section">
+    <div class="form-border-wrap">
+      <section class="form-card">
+        <h2 class="gradient-text">Car Price Predictor</h2>
+
+        <form id="predictForm">
+          <!-- Brand -->
+          <label for="brand">Car Brand</label>
+          <select id="brand" required>
+            <option value="" selected disabled>Select brand</option>
+          </select>
+
+          <!-- Model -->
+          <label for="model">Car Model</label>
+          <select id="model" disabled required>
+            <option value="" selected disabled>Select model</option>
+          </select>
+
+          <!-- Year -->
+          <label for="year">Manufactured Year</label>
+          <select id="year" disabled required>
+            <option value="" selected disabled>Select year</option>
+          </select>
+
+          <!-- Kilometres driven -->
+          <label for="kms">Kms Driven <span id="kmsVal">0</span></label>
+          <input id="kms" type="range" min="0" max="200000" step="1000" value="0">
+
+          <!-- Fuel -->
+          <label for="fuel">Fuel Type</label>
+          <select id="fuel" required>
+            <option>Petrol</option><option>Diesel</option>
+            <option>CNG</option><option>Electric</option>
+          </select>
+
+          <!-- Seller -->
+          <label for="seller">Seller Type</label>
+          <select id="seller" required>
+            <option>Individual</option><option>Dealer</option><option>Trustmark Dealer</option>
+          </select>
+
+          <!-- Transmission -->
+          <label for="transmission">Transmission</label>
+          <select id="transmission" required>
+            <option>Manual</option><option>Automatic</option>
+          </select>
+
+          <!-- Owner -->
+          <label for="owner">Owner Type</label>
+          <select id="owner" required>
+            <option>First Owner</option><option>Second Owner</option>
+            <option>Third Owner</option><option>Fourth &amp; Above</option>
+            <option>Test‑Drive Car</option>
+          </select>
+
+          <button id="predictBtn" type="submit">Predict Price</button>
+        </form>
+
+        <div id="result" class="result"></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About This Project</h2>
+    <p>
+        AutoWorth AI is a smart car price predictor built using a machine learning model trained on over <strong>8,000 real-world car listings</strong>.  
+        Powered by <strong>Flask</strong> on the backend and designed with modern, responsive UI/UX for a seamless experience.
+        <br><br>
+        This tool helps users uncover fair market values of used cars based on real data — <em>fast, transparent, and accurate</em>.
+      </p>
+  </section>
+
+  <!--Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h2 class="gradient-text">AutoWorth AI</h2>
+        <p>&copy; 2025 All rights reserved.</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzOmo4NxwW8NqatCycnOpejFBoFt2IxY4mojyT_Pif1KAo2Q/viewform?usp=sharing&ouid=113914115461342755359" target="_blank" aria-label="Contact form">
+          <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/____.yatharth.____" target="_blank" aria-label="Instagram">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/yatharth-59aa49328" target="_blank" aria-label="LinkedIn">
+          <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="">
+        </a>
+        <a href="https://github.com/01-YATHARTH" target="_blank" aria-label="GitHub">
+          <img src="https://i.pinimg.com/originals/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.png" alt="">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Linking js file -->
+  <script src="/static/script.js" defer></script>
+
+</body>
+</html>
