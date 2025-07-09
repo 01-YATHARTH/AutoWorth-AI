@@ -1,0 +1,9 @@
+# --- core runtime ---
+flask                 # web framework
+gunicorn              # production WSGI server the host will run
+
+# --- data / ML stack ---
+pandas
+numpy                 # pandas & scikit‑learn rely on this
+scikit-learn>=1.4     # works with Python 3.12
+joblib                # model .pkl load/save
