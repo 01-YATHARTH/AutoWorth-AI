@@ -21,27 +21,39 @@ AutoWorth AI is an intelligent, web-based car price prediction app built using *
 
 # 🖼️ Screenshots
 
-> ✅ Place all screenshots inside the `/screenshots` folder.
 
-### 🏠 Home Page
+### 🖥️ Desktop View
 
-`/screenshots/home.png`
+#### Home Page
+![Desktop Home](assets/desktop-home.png)
 
-### 🧮 Predictor Form
+#### Form Page
+![Desktop Form](assets/desktop-form.png)
 
-`/screenshots/form.png`
+#### Prediction Result
+![Desktop Result](assets/desktop-result.png)
+
+#### Footer
+![Desktop Footer](assets/desktop-footer.png)
+
+---
 
 ### 📱 Mobile View
 
-`/screenshots/mobile.png`
+#### Mobile Home
+![Mobile Home](assets/mobile-home.png)
 
-### 🎯 Prediction Result
+#### Mobile Navbar
+![Mobile Navbar](assets/mobile-navbar.png)
 
-`/screenshots/result.png`
+#### Mobile Form
+![Mobile Form](assets/mobile-form.png)
 
-### 👣 Footer Section
+#### Mobile Footer
+![Mobile Footer](assets/mobile-footer.png)
 
-`/screenshots/footer.png`
+
+
 
 ---
 
