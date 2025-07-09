@@ -106,7 +106,7 @@ CAR PRICE/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/car-price-predictor.git
+git clone https://github.com/01-YATHARTH/car-price-predictor.git
 cd car-price-predictor
 ```
 
