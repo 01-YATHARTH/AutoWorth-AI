@@ -15,7 +15,8 @@ app = Flask(__name__)
 # 2.  File paths + load data / model
 #     (using pathlib keeps things OS‑agnostic on Render, Windows, etc.)
 # ──────────────────────────────────────────────────────────────
-BASE_DIR  = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent / "CAR PRICE"
+
 CSV_PATH  = BASE_DIR / "Cardetails.csv"
 MODEL_PATH = BASE_DIR / "Model" / "car_model.pkl"
 
