@@ -1,5 +1,5 @@
 # AutoWorth-AI
-# 🚗 AutoWorth AI – Car Price Predictor
+# AutoWorth AI – Car Price Predictor
 
 AutoWorth AI is an intelligent, web-based car price prediction app built using **Flask**, **machine learning**, and a clean, responsive frontend. Users can easily get an estimated resale value of a car by selecting the brand, model, year, and other attributes.
 
@@ -19,7 +19,7 @@ AutoWorth AI is an intelligent, web-based car price prediction app built using *
 
 ---
 
-# 🖼️ Screenshots
+# Screenshots
 
 
 ### 🖥️ Desktop View
@@ -57,7 +57,7 @@ AutoWorth AI is an intelligent, web-based car price prediction app built using *
 
 ---
 
-# 🧠 How It Works
+#  How It Works
 
 1. User selects a brand → model → year from dynamic dropdowns
 2. Enters additional details like fuel, transmission, owner, etc.
@@ -122,16 +122,13 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Visit `http://127.0.0.1:10000/` in your browser.
-
----
 
 
-# 🙋‍♂️ Contact
+#  Contact
 
 **Yatharth**
-📬 [LinkedIn](https://www.linkedin.com/in/yatharth-59aa49328)
-🐱 [GitHub](https://github.com/01-YATHARTH)
-📩 [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfzOmo4NxwW8NqatCycnOpejFBoFt2IxY4mojyT_Pif1KAo2Q/viewform?usp=sharing)
+ [LinkedIn](https://www.linkedin.com/in/yatharth-59aa49328)
+ [GitHub](https://github.com/01-YATHARTH)
+ [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfzOmo4NxwW8NqatCycnOpejFBoFt2IxY4mojyT_Pif1KAo2Q/viewform?usp=sharing)
 
 ---
